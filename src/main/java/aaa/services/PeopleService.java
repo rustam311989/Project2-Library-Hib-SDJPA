@@ -1,16 +1,13 @@
-package nachren.services;
+package aaa.services;
 
-import nachren.models.Book;
-import nachren.models.Person;
-import nachren.repositories.PeopleRepository;
+import aaa.models.Book;
+import aaa.models.Person;
+import aaa.repositories.PeopleRepository;
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.JoinColumn;
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Optional;

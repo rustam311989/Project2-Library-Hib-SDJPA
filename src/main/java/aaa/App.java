@@ -1,7 +1,7 @@
-package nachren;
+package aaa;
 
-import nachren.models.Book;
-import nachren.models.Person;
+import aaa.models.Book;
+import aaa.models.Person;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

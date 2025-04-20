@@ -1,15 +1,10 @@
-package nachren.models;
+package aaa.models;
 
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.http.converter.json.GsonBuilderUtils;
 
 import javax.persistence.*;
-import javax.validation.constraints.Min;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
-import java.time.LocalDate;
-import java.time.ZoneId;
-import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 @Entity

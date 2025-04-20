@@ -1,4 +1,4 @@
-package nachren.config;
+package aaa.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -26,11 +26,11 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@ComponentScan("nachren")
+@ComponentScan("aaa")
 @EnableWebMvc
 @PropertySource("classpath:hibernate.properties")
 @EnableTransactionManagement
-@EnableJpaRepositories("nachren.repositories")
+@EnableJpaRepositories("aaa.repositories")
 public class Config implements WebMvcConfigurer {
 
     private final ApplicationContext applicationContext;

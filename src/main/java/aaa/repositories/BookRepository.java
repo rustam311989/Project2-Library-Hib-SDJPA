@@ -1,6 +1,6 @@
-package nachren.repositories;
+package aaa.repositories;
 
-import nachren.models.Book;
+import aaa.models.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

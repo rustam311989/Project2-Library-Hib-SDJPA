@@ -1,4 +1,4 @@
-package nachren.models;
+package aaa.models;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;

@@ -1,8 +1,7 @@
-package nachren.util;
+package aaa.util;
 
-import nachren.models.Person;
-import nachren.services.PeopleService;
-import org.springframework.beans.factory.annotation.Autowired;
+import aaa.models.Person;
+import aaa.services.PeopleService;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
