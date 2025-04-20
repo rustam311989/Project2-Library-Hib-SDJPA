@@ -63,6 +63,10 @@ public class PeopleService {
         else {
             return Collections.emptyList();
         }
-
     }
+
+    public Optional<Person> getPersonByFullName(String fullName) {
+        return peopleRepository.findByFullName(fullName);
+    }
+
 }

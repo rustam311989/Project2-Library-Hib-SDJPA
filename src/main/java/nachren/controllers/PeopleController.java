@@ -1,7 +1,5 @@
 package nachren.controllers;
 
-import nachren.dao.BookDAO;
-import nachren.dao.PersonDAO;
 import nachren.models.Person;
 import nachren.services.PeopleService;
 import nachren.util.PersonValidator;
