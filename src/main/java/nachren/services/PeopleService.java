@@ -65,8 +65,8 @@ public class PeopleService {
         }
     }
 
-    public Optional<Person> getPersonByFullName(String fullName) {
-        return peopleRepository.findByFullName(fullName);
+    public Optional<Person> getPersonByFio(String fullName) {
+        return peopleRepository.findByFio(fullName);
     }
 
 }

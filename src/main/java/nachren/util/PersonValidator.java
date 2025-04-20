@@ -26,7 +26,7 @@ public class PersonValidator implements Validator {
     public void validate(Object o, Errors errors) {
         Person person = (Person) o;
 
-        if(peopleService.getPersonByFullName(person.getFio()).isPresent()){
+        if(peopleService.getPersonByFio(person.getFio()).isPresent()){
             errors.rejectValue("fio", null, "This name is already in use");
         }
     }
